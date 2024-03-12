@@ -9,7 +9,7 @@ export default function Clicker() {
                 </div>
                 <div className="clickerButtonContainer d-flex flex-row">
                     <button
-                        className="btn btn-sucess w-100"
+                        className="btn btn-success w-100"
                         onClick={ () => updateClickerValue(clickerValue + 1)}
                     >
                         <i className="fa fa-2x fa-plus"/>
